@@ -1,14 +1,15 @@
-## Put comments here that give an overall description of what your
-## functions do
+## These two functions are here to test assgning objects 
+## in a different environment.
 
-## Write a short comment describing this function
+## First one constructsts a matrix
 
 makeCacheMatrix <- function(x = matrix()) {
 
 }
 
 
-## Write a short comment describing this function
+## This one calculates the inverse or takes it from cache
+## (if available)
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
